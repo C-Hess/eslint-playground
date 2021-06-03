@@ -1,0 +1,37 @@
+{
+  "name": "eslint-playground",
+  "version": "1.0.0",
+  "description": "Playground for eslint",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.15",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint-plugin-enterprise-extras": "file:../eslint-plugin-enterprise-extras",
+    "babel-jest": "^26.6.3",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.5",
+    "eslint": "7.22.0",
+    "jest": "^26.6.3",
+    "react-test-renderer": "^17.0.1",
+    "ts-jest": "^26.4.4",
+    "typescript": "3.8.3",
+    "prettier": "2.2.1"
+  },
+  "scripts": {
+    "lint": "eslint ./*.tsx --debug",
+    "test": "jest index.test.tsx",
+    "tsc": "tsc index.tsx index.test.tsx --noEmit true --jsx react"
+  }
+}
