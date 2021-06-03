@@ -13,5 +13,6 @@ module.exports = {
       "enterprise-extras/no-href-assignment": "error",
       "enterprise-extras/private-component-methods": "error",
       "enterprise-extras/no-unhandled-scheduling": "error",
+      "enterprise-extras/must-have-initials": "error"
     },
   };
